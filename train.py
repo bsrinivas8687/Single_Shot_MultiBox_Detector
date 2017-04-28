@@ -5,7 +5,7 @@ import sys
 import numpy as np
 from keras.optimizers import Adam
 from keras.callbacks import ReduceLROnPlateau, ModelCheckpoint
-from ssd.data import Generator
+from data_generator import Generator
 from ssd.ssd_utils import BBoxUtility, MultiboxLoss, get_prior_boxes
 from params import *
 from ssd.net import *
